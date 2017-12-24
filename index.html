@@ -2,24 +2,170 @@
 	<head> 
 		<link rel= "stylesheet" type= "text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+
+		 <link
+		    rel="stylesheet"
+		    href="prism-atom-dark.css"
+		    type="text/css"
+		    media="screen"
+		  />
+
+		  <script type="text/javascript" src="prism.js"></script>
+		  <script type="text/javascript" src="prism.python.js"></script>
+		  <script type="text/javascript" src="prism.r.js"></script>
+		  <script type="text/javascript" src="prism.cpp.js"></script>
+		  <script type="text/javascript" src="prism.csharp.js"></script>
+		  <script type="text/javascript" src="prism.latex.js"></script>
 	</head>
 
 	<body>
-		<div class="about">
-			<img src="me.png" class="me"/>
+		<div class="about-container">
+			<ul>
+			   <li><a href="#" class="nav-link">ABOUT</a></li>
+			   <li><a href="#code-samples" class="nav-link">CODE SAMPLES</a></li>
+			   <li><a href="#personal-projects" class="nav-link">PERSONAL PROJECTS</a></li>
+			   <li><a href="#msds-course-work" class="nav-link">M.S. DATA SCIENCE COURSE WORK</a></li>
+			   <li><a href="#skills-and-tools" class="nav-link">SKILLS &amp; TOOLS</a></li>
+			   <li><a href="#" class="nav-link">HIRE ME</a></li>
+			   <li class="hire-me"><a href="#hire-me" class="nav-link">CV</a></li>	
+			</ul>
+			<div class="about">
+				<img src="me.png" class="me"/>
 
-			<h1>Brandon O'Briant</h1>
-			<h2>DATA SCIENTIST</h2>
-			<hr class="grey"/>
-			<p class="bio">
-			Mr. O'Briant is a technically sophisticated analyst with recent academic background in predictive analytics, 2+ years of experience in SQL, R, Python, and Logical data modeling, and solid skills in programming and strategic planning. 
-			He brings broad knowledge of statistics, mathematics, computer systems, and programming languages. In previous roles and research projects, Mr. O'Briant has developed solid skills to provide reports, analyze data, manage records, and coordinate with a variety of teams and stakeholders. 
-			Additionally, he possesses extensive experience in design thinking from inception to presentation. Committed to the highest quality and research accuracy, he builds productive relationships with all stakeholders and organize timelines and methodologies to achieve common goals. 
-			Mr. O'Briant's interest are not limited to and include: AI, data science, deep learning, health analytics, machine learning, computational modeling/simulation, data engineering, and high performance computing (Tensorflow and CUDA). 
-			Interested in expanding the network of professional acquaintances and hearing about potential career opportunities, he welcomes thoughts or questions about his work at obrianbl@protonmail.com. 
+				<h1>Brandon O'Briant</h1>
+				<h2>DATA SCIENTIST</h2>
+				<hr class="grey"/>	
+					<div class="content">
+						<p class="bio">
+						Mr. O'Briant graduated from Pacific Lutheran University with a B.S. Mathematics in December 2016, and is a currently pursing an M.S. Data Science degree at Northwestern University's School of Professional Studies MSDS program (extension of the M.S. in Predictive Analytics program). He is a technically sophisticated analyst with recent academic background in predictive analytics, 2+ years of experience in SQL, R, Python, and Logical data modeling, and solid skills in programming and strategic planning. 
+						He brings broad knowledge of statistics, mathematics, computer systems, and programming languages. In previous roles and research projects, Mr. O'Briant has developed solid skills to provide reports, analyze data, manage records, and coordinate with a variety of teams and stakeholders. 
+						Additionally, he possesses extensive experience in design thinking from inception to presentation. Committed to the highest quality and research accuracy, he builds productive relationships with all stakeholders and organize timelines and methodologies to achieve common goals. 
+						Mr. O'Briant's interest include, but not limited to: AI, data science, deep learning, health analytics, machine learning, computational modeling/simulation, data engineering, and high performance computing (Tensorflow and CUDA). 
+						</p>
+					</div>
+			</div>
+		</div>
+
+		<h3 id="code-samples">Code Snippets</h3>
+		<hr class="yellow">
+
+		<div class="box">
+			<h4></h4>
+			<p>
+			This is a test: should have python syntax color
+
 			</p>
-			<p class="bio">
-			**Will be migrating into the new M.S. Data Science degree at Northwestern University SPS this Spring 2018.	
+		</div>
+
+		<div class="box">
+		<pre><code class="language-python">
+n = 0
+while n &lt; 10
+	puts &quot;Hello, #{n}&quot;
+	n = n + 1
+end
+print(&quot;Goodbye&quot;)</code></pre>	
+		</div>
+
+		<br class="clear"/>
+
+		<div class="box">
+			<h4></h4>
+			<p>
+				
+				
+			</p>
+		</div>
+
+		<div class="box">
+			<h4></h4>
+			<p>
+				
+				
+			</p>
+		</div>
+
+		<br class="clear"/>
+
+		<div class="box">
+			<h4></h4>
+			<p>
+				
+				
+			</p>
+		</div>
+
+		<div class="box">
+			<h4></h4>
+			<p>
+				
+				
+			</p>
+		</div>
+
+		<br class="clear"/>
+
+		<h3 id="personal-projects">Personal Projects</h3>
+		<hr class="yellow"/>
+
+		<div class="box">
+			<h4>Some App Here</h4>
+			<p>
+			description here, put image above...
+			</p>
+		</div>
+		<br class="clear"/>
+
+		<h3 id="msds-course-work">M.S. Data Science Course Work</h3>
+		<hr class="yellow"/>
+
+		<div class="box">
+			<h4>Some App Here</h4>
+			<p>
+			description here, put image above...
+			</p>
+		</div>
+		<br class="clear"/>
+
+
+
+		<h3 id="skills-and-tools">Skills &amp; Tools</h3>
+		<hr class="yellow"/>
+		<div class="skills-and-tools">
+		<p class="skills-and-tools">
+		Mr. O'Briant has devloped proficiency and expertise in the following programming languages and comfort with the following tools.	
+		</p>
+		</div>
+		<div class="icons">
+			<img src="cpp-logo.png"/>
+			<img src="r-logo.png"/>
+			<img src="cuda-logo.png"/>
+			<img src="htmlCSS-logo.png"/>
+			<img src="postgre-SQL-logo.jpg"/>
+			<img src="python-logo.png"/>
+			<img src="LaTex-logo.png"/>
+
+			<br class="clear"/>
+			<img src="mongoDB-logo.png"/>
+			<img src="github-logo.png"/>
+			<img src="docker-logo.png"/>
+			<img src="tableau-logo.png"/>
+			<img src="tensorflow-logo.png"/>
+			<img src="mySql-logo.png"/>
+
+		</div>
+
+
+		<div class="contact-me" id="hire-me">
+			<h3 class="contact-headline">Contact</h3>
+			<hr class="yellow" />
+			<p class="contact-info">
+				Mr. O'Briant is interested in expanding the network of professional acquaintances, hearing about potential career opportunities, and welcomes thoughts or questions about his work:
+			</p>
+			<p>
+			<a href="mailto:obrianbl@protonmail.com" class="contact-link">
+				obrinabl@protonmail.com
+			</a>
 			</p>
 		</div>
 	</body>
