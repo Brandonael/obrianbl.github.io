@@ -22,10 +22,12 @@ h3 {
 	font-size: 28px;
 	font-weight: normal;
 	margin-top: 100px;
+	color: black;
 }
 
 h4 {
 	text-align: center;
+	color: black;
 }
 
 p {
@@ -113,10 +115,29 @@ li {
 }
 
 .box {
-	float: left;
+	float: center;
 	width: 42.5%;
-	margin-left: 5%;
-	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.course-box {
+	float: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.course-box-2 {
+	float: center;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+
 }
 
 .clear {
@@ -167,4 +188,25 @@ li {
 .hire-me {
 	border-style: solid;
 	border-color: white;
+}
+
+.course-link{
+	color: black;
+	text-decoration: none;
+}
+
+.nw-msds-links{
+	color: black;
+	text-decoration: none;
+}
+
+.msds-main-link{
+	color: black;
+	text-decoration: none;
+}
+
+.table-style{
+	margin:auto;
+	margin-bottom: 40px;
+	vertical-align: top;
 }
