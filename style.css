@@ -12,7 +12,7 @@ h1 {
 
 h2 {
 	color: white;
-	font-size: 18px;
+	font-size: 28px;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -21,13 +21,14 @@ h3 {
 	text-align: center;
 	font-size: 28px;
 	font-weight: normal;
-	margin-top: 100px;
+	margin-top: 50px;
 	color: black;
 }
 
 h4 {
 	text-align: center;
 	color: black;
+	font-size: 18px;
 }
 
 p {
@@ -50,11 +51,13 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	width: 600px;
+	margin-top: 0px;
 }
 
 .bio {
 	color: white;
-	font-size: 14px;
+	font-size: 16px;
 	margin-top: 0;
 }
 
@@ -69,7 +72,7 @@ li {
 
 .about {
 	width: 100%;
-	height: 680px;
+	height: 805px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -88,7 +91,7 @@ li {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 780px;
+	height: 895px;
 }
 
 .about .content{
@@ -124,7 +127,7 @@ li {
 
 .course-box {
 	float: center;
-	width: 50%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
@@ -135,7 +138,7 @@ li {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 
 }
@@ -208,5 +211,4 @@ li {
 .table-style{
 	margin:auto;
 	margin-bottom: 40px;
-	vertical-align: top;
 }
