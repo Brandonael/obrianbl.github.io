@@ -222,3 +222,13 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.sharpe {
+	height: 600px;
+	width: 600px;
+	border-width: 1px;
+	margin-top: 10px;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
