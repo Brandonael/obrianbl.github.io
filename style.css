@@ -224,8 +224,8 @@ li {
 }
 
 .sharpe {
-	height: 600px;
-	width: 600px;
+	height: 480px;
+	width: 480px;
 	border-width: 1px;
 	margin-top: 10px;
 	float: center;
@@ -235,8 +235,8 @@ li {
 
 
 .LinReg_CPP {
-	height: 600px;
-	width: 630px;
+	height: 580px;
+	width: 580px;
 	margin-top: 10px;
 	float: center;
 	margin-left: auto;
